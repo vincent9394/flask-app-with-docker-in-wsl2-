@@ -1,8 +1,8 @@
 https://www.digitalocean.com/community/tutorials/how-to-develop-a-docker-application-on-windows-using-wsl-visual-studio-code-and-docker-desktop
 
 ## Run the program with docker
-3. docker build -t myapp .
-4. docker run -p 8080:8080 myapp
+1. docker build -t myapp .
+2. docker run -p 8080:8080 myapp
 
 ## If you want to stop the program, 
 docker stop <container id>
